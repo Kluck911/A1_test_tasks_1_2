@@ -15,5 +15,5 @@ dog = Animal(name='Proton', color="red", voice="gav")
 
 animal_list = (cow, cat, dog)
 
-for i in animal_list:
-    print(f"{i.name} is {i.color}. It sais {i.voice * 3}")
+for animal in animal_list:
+    print(f"{animal.name} is {animal.color}. It sais {animal.voice * 3}")
