@@ -6,3 +6,5 @@ class Animal:
         self.color = color
         self.voice = voice
 
+def says_voice(animal):
+    print(animal.voice)
