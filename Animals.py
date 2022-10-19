@@ -13,4 +13,7 @@ cow = Animal(name="Burka", color="black", voice="myyy")
 cat = Animal(name="Kuzia", color="white", voice="miau")
 dog = Animal(name='Proton', color="red", voice="gav")
 
-animal_list = [cow, cat, dog]
+animal_list = (cow, cat, dog)
+
+for i in animal_list:
+    print(f"{i.name} is {i.color}. It sais {i.voice}")
